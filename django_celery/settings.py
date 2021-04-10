@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # custom apps
     'feedback',
-    'photos'
+    'photos',
+    'news',
 ]
 
 MIDDLEWARE = [

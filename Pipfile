@@ -18,6 +18,7 @@ dj-database-url = "*"
 python-decouple = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+newsapi-python = "*"
 
 [requires]
 python_version = "3.8"

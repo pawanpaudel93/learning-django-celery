@@ -24,4 +24,8 @@ app.conf.beat_schedule = {
         "task": "task_save_latest_flickr_image",
         "schedule": crontab(minute='*/15'),
     },
+    "task_save_top_news": {
+        "task": "task_save_top_news",
+        "schedule": crontab(minute='*/60'),
+    },
 }
